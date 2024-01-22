@@ -1,14 +1,14 @@
 <footer>
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-xl-3 mb-5 mb-xl-0">
+    <div class="row justify-content-xl-between">
+      <div class="col-12 col-xl-3 mb-5 mb-xl-0 d-xl-flex align-items-center">
         <div class="logo">
           <img src="../vs-odontologia/assets/images/logo.png" alt="">
         </div>
       </div>
 
-      <div class="col-12 col-xl-5">
-        <div class="mb-3 mb-xl-0">
+      <div class="col-12 col-xl-4">
+        <div class="mb-3 mb-xl-4">
           <span><strong>Endereço</strong></span>
           <div>
             <a href="https://maps.app.goo.gl/23LiLWqXUzZvd1qq5" class="vs-flex-topic" target="_blank">
@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <div class="mb-3 mb-xl-0">
+        <div class="mb-3 mb-xl-4">
           <span><strong>Contato</strong></span>
           <div class="row gy-2">
             <div class="col-5">
@@ -50,8 +50,8 @@
         </div>
       </div>
 
-      <div class="col-12 col-xl-4">
-        <div class="mb-3 mb-xl-0">
+      <div class="col-12 col-xl-4 col-xxl-3">
+        <div class="mb-3 mb-xl-4">
           <span><strong>Horário</strong></span>
           <div>
             <span class="vs-flex-topic">
@@ -61,7 +61,7 @@
           </div>
         </div>
 
-        <div class="mb-3 mb-xl-0">
+        <div class="mb-3 mb-xl-4">
           <span><strong>Responsável Técnico</strong></span>
           <div>
             <span class="vs-flex-topic">

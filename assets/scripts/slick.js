@@ -1,24 +1,24 @@
 $(window).on('load resize orientationchange', function () {
-    $('.carousel-avatar').each(function () {
-        let $carousel = $(this);
+    // $('.carousel-avatar').each(function () {
+    //     let $carousel = $(this);
 
-        if ($(window).width() > 768) {
-            if ($carousel.hasClass('slick-initialized')) {
-                $carousel.slick('unslick');
-            }
-        }
+    //     if ($(window).width() > 768) {
+    //         if ($carousel.hasClass('slick-initialized')) {
+    //             $carousel.slick('unslick');
+    //         }
+    //     }
 
-        else {
-            if (!$carousel.hasClass('slick-initialized')) {
-                $carousel.slick({
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    infinite: false
-                });
-            }
-        }
-    });
+    //     else {
+    //         if (!$carousel.hasClass('slick-initialized')) {
+    //             $carousel.slick({
+    //                 slidesToShow: 1,
+    //                 slidesToScroll: 1,
+    //                 arrows: true,
+    //                 infinite: false
+    //             });
+    //         }
+    //     }
+    // });
 
     // $('.carousel-products-slick').each(function () {
     //     let $carousel = $(this);
@@ -95,27 +95,68 @@ $(window).on('load resize orientationchange', function () {
 $(function () {
     $('.carousel-tratamentos').slick({
         infinite: false,
-        slidesToShow: 1,
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows: true,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
     });
 
-    $('.vs-gallery ').slick({
+    $('.carousel-avatar').slick({
         infinite: false,
-        slidesToShow: 1,
+        slidesToShow: 4,
         slidesToScroll: 1,
         arrows: true,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
+    });
+
+    $('.vs-gallery-carousel').slick({
+        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+        ]
     });
 
     $('.carousel-testimonial').slick({
         infinite: false,
-        slidesToShow: 1,
+        slidesToShow: 3,
         slidesToScroll: 1,
-        arrows: false,
-        dots: true
+        arrows: true,
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    infinite: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    dots: true
+                }
+            },
+        ]
     });
-
-
-
-
 });

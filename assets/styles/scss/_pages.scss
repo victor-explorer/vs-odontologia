@@ -23,6 +23,10 @@ body {
       visibility: visible;
     }
   }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    font-size: $md;
+  }
 }
 
 h1,
@@ -37,7 +41,12 @@ h6 {
 
   text-transform: uppercase;
 
-  @media(min-width: 992px) {
+  @media(min-width: 1200px) {
+    font-size: 2.75rem;
+    line-height: 160%;
+  }
+
+  @media(min-width: 1400px) {
     font-size: $h-lg;
     line-height: 160%;
   }
@@ -96,6 +105,8 @@ a {
   background-repeat: no-repeat;
   margin-top: -1px;
   position: relative;
+  padding-top: 13vh;
+
 
   .home-banner-heading {
     h1 {
@@ -104,6 +115,11 @@ a {
       text-align: center;
 
       @media (min-width: 1200px) {
+        font-size: 4.4375rem;
+        text-align: start;
+      }
+
+      @media (min-width: 1400px) {
         font-size: 5.4375rem;
         text-align: start;
       }
@@ -117,11 +133,29 @@ a {
   .home-banner-subheading {
     line-height: 140%;
   }
+
+  @media (min-width: 1200px) {
+    background: $background url(../../images/bg-home-banner-desktop.webp) no-repeat;
+    background-size: 100%;
+    padding-top: 15vh;
+
+    .home-banner-background-helper {
+      display: none;
+      visibility: hidden;
+    }
+
+    .home-banner-heading {
+      padding-top: 15vh;
+      padding-bottom: 15vh;
+    }
+  }
 }
 
 .vs-about {
   padding-top: 2.5rem;
   background: url('../../images/bg-about.svg') $background no-repeat 50% 150%;
+  position: relative;
+  overflow: hidden;
 
   .vs-about-heading {
     text-transform: capitalize;
@@ -131,6 +165,7 @@ a {
     position: relative;
     padding-bottom: 55vh;
     width: 100vw;
+
 
     .vs-about-image {
       position: absolute;
@@ -144,7 +179,47 @@ a {
   }
 
   @media (min-width: 1200px) {
-    padding-top: 3.75rem;
+    padding-top: unset;
+    background: url('../../images/bg-home-about-desktop.webp') 100% no-repeat;
+    background-size: 115%;
+    background-position: 40% 0;
+    height: 80vh;
+
+    .vs-about-bg-container {
+      height: 100%;
+      background-color: $background;
+      position: absolute;
+      top: 20.5vh;
+      left: 0;
+      width: 100%;
+      mix-blend-mode: multiply;
+      padding: 25px 0;
+    }
+
+    .vs-about-image-container {
+      display: none;
+      visibility: hidden;
+    }
+  }
+
+  @media (min-width: 1400px) {
+    height: 60vh;
+    background: url('../../images/bg-home-about-desktop.webp') 100% no-repeat;
+
+    .vs-about-bg-container {
+      height: 60vh;
+      background-color: $background;
+      position: absolute;
+      top: 6.6vh;
+      left: 0;
+      width: 100%;
+      padding: 100px 0;
+    }
+
+    .vs-about-image-container {
+      display: none;
+      visibility: hidden;
+    }
   }
 }
 
@@ -152,7 +227,7 @@ a {
   background-image: url(../../images/bg-home-values.webp);
   background-position: 50% 100%;
   background-size: contain;
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 
   .vs-values-content {
     padding-bottom: 77vh;
@@ -164,8 +239,19 @@ a {
       line-height: 160%;
       text-transform: uppercase;
     }
+  }
 
-    @media (min-width: 1200px) {}
+  @media (min-width: 1200px) {
+    background: url(../../images/bg-home-values-desktop.webp) no-repeat 100%;
+
+    .vs-values-content {
+      padding-bottom: 7vh;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    background-size: cover;
+    background-position: center left;
   }
 }
 
@@ -175,5 +261,70 @@ a {
 
   .vs-testimonials-heading {
     color: $secondary;
+  }
+}
+
+.internal-page-banner {
+  background-color: $background;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -1px;
+  height: 75vh;
+  padding-top: 13vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .banner-heading {
+    h1 {
+      font-size: 2.6875rem;
+      line-height: 114%;
+      text-align: center;
+
+      @media (min-width: 1200px) {
+        font-size: 4.4375rem;
+        text-align: start;
+      }
+
+      @media (min-width: 1400px) {
+        font-size: 5.4375rem;
+        text-align: start;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 30vh;
+  }
+}
+
+#equipe {
+  .internal-page-banner {
+    background-image: url(../../images/bg-internal-banner-equipe.webp);
+
+    @media (min-width: 1200px) {
+      background-image: url(../../images/bg-internal-banner-equipe-desktop.webp);
+    }
+  }
+
+  .vs-card-avatar {
+    max-width: 100%;
+    justify-content: start;
+
+    .vs-card-avatar-content {
+      .vs-card-avatar-name {
+        min-height: auto
+      }
+
+    }
+  }
+}
+
+#tratamentos {
+  .internal-page-banner {
+    background-image: url(../../images/bg-internal-banner-tratamentos.webp);
+
+    @media (min-width: 1200px) {
+      background-image: url(../../images/bg-internal-banner-tratamentos-desktop.webp);
+    }
   }
 }

@@ -1,7 +1,6 @@
 <?php require('include/helmet.php'); ?>
-
 <?php
-$heading = "Política de privacidade"
+$heading = "Prótese"
 ?>
 
 <main id="single">

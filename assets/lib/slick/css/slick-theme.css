@@ -120,6 +120,16 @@
     content: '←';
 }
 
+@media (min-width: 1200px) {
+    .slick-prev {
+        left: -25px;
+    }
+
+    .slick-next {
+        right: -25px;
+    }
+}
+
 /* Dots */
 .slick-dotted.slick-slider
 {

@@ -51,6 +51,14 @@
     }
   }
 
+  @media (max-width: 400px) {
+    font-size: $lg;
+
+    &[type="submit"] {
+      padding: 26px 36px;
+    }
+  }
+
   @media (min-width: 1200px) {
     line-height: 80%;
     padding: 35px 50px;
@@ -144,6 +152,15 @@
     }
   }
 
+  @media (max-width: 400px) {
+    .vs-card-info {
+      .vs-card-title {
+        font-size: $lg;
+      }
+    }
+
+  }
+
   @media (min-width: 1200px) and (max-width: 1400px) {
     .vs-card-info {
       .vs-card-title {
@@ -215,6 +232,15 @@
       color: $secondary;
       line-height: 150%;
     }
+  }
+
+  @media (max-width: 400px) {
+    .vs-card-avatar-content {
+      .vs-card-avatar-name {
+        font-size: $lg;
+      }
+    }
+
   }
 
   @media (min-width: 1200px) and (max-width: 1400px) {
@@ -376,4 +402,8 @@
   justify-content: center;
   font-size: $xxl;
   line-height: 116%;
+
+  @media (max-width: 400px) {
+    font-size: $xl;
+  }
 }

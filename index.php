@@ -405,7 +405,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-xl-6">
-          <h3 class="pe-5 me-2 mb-3  pe-xl-0 me-xl-0 vs-values-heading">
+          <h3 class="pe-3 pe-xl-0 mb-3 vs-values-heading">
             SUA AUTOESTIMA <br>É <em>NOSSA META</em>
           </h3>
 

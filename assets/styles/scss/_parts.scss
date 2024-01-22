@@ -205,6 +205,10 @@ footer {
   .vs-flex-topic {
     font-size: $xsm;
     justify-content: start;
+
+    @media (max-width: 400px) {
+      font-size: .75rem;
+    }
   }
 
   .logo {

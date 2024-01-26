@@ -3,7 +3,7 @@
 $heading = "Periodontia"
 ?>
 
-<main id="single">
+<main id="periodontia">
   <?php require('include/internal-banner.php'); ?>
 
   <section class="wrapper">

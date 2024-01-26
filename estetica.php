@@ -3,7 +3,7 @@
 $heading = "Estética"
 ?>
 
-<main id="single">
+<main id="estetica">
   <?php require('include/internal-banner.php'); ?>
 
   <section class="wrapper">

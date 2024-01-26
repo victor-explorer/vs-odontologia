@@ -3,7 +3,7 @@
 $heading = "Implantodontia"
 ?>
 
-<main id="single">
+<main id="implantodontia">
   <?php require('include/internal-banner.php'); ?>
 
   <section class="wrapper">

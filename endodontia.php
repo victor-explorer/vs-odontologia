@@ -8,14 +8,35 @@ $heading = "Endodontia"
 
   <section class="wrapper">
     <div class="container">
+      <h2>ENDODONTIA & TRATAMENTO DE CANAL</h2>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        O tratamento endodôntico é realizado pela remoção da polpa inflamada ou necrótica, seguido da limpeza e desinfecção do canal e sua obturação, vedando totalmente o espaço vazio ocupado anteriormente pela polpa da coroa e da raiz.
       </p>
       <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        Exige uma ou mais consultas que envolvem alguns passos:
       </p>
+      <ul>
+        <li>
+          Anestesia – que em algumas situações pode não ser necessária (caso seja retratamento de canal)
+        </li>
+        <li>
+          Isolamento – um lençol de látex é colocado sobre o dente para mantê-lo seco e sem contaminação
+        </li>
+        <li>
+          Abertura – é feito um acesso na coroa do dente até a câmara pulpar
+        </li>
+        <li>
+          Remoção da polpa – feita com limas próprias ajustadas no comprimento adequado do dente. Juntamente com a limagem irriga-se com substâncias químicas, obtendo-se limpeza, desinfecção e modelagem do espaço interno, para ser obturado (vedado)
+        </li>
+        <li>
+          Curativo temporário – uma medicação antibacteriana poderá ser colocada no interior da câmara e do canal entre uma sessão e outra para manter ou incrementar a desinfecção obtida na fase anterior
+        </li>
+        <li>
+          Obturação do canal – o canal geralmente é obturado com um material apropriado para seu selamento.
+        </li>
+      </ul>
       <p>
-        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        A polpa é removida, o canal é limpo, modelado e obturado. No estágio final o dente será restaurado por uma coroa total ou uma restauração parcial para fortalecê-lo e melhorar sua aparência estética. Em muitos casos, após o tratamento do canal, pode ser indicada a colocação de pino de fibra de vidro para reforço estrutural do dente.
       </p>
     </div>
   </section>

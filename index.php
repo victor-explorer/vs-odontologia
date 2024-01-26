@@ -121,7 +121,7 @@
                 </strong>
               </div>
               <div class="vs-card-content">
-                <p>Cuide dos detalhes de sua dentição </p>
+                <p>Alinhamento e estética no seu sorriso</p>
               </div>
             </div>
             <div class="vs-card-link">
@@ -144,7 +144,7 @@
                 </strong>
               </div>
               <div class="vs-card-content">
-                <p>Saúde bucal levada a sério</p>
+                <p>Alívio da dor e preservação estrutural</p>
               </div>
             </div>
             <div class="vs-card-link">
@@ -167,7 +167,7 @@
                 </strong>
               </div>
               <div class="vs-card-content">
-                <p>Cuidados com <br> sua gengiva</p>
+                <p>Cuidados com sua gengiva e saúde bucal</p>
               </div>
             </div>
             <div class="vs-card-link">
@@ -213,7 +213,7 @@
                 </strong>
               </div>
               <div class="vs-card-content">
-                <p>Solucione problemas bucais pela raíz</p>
+                <p>Implantes, extrações e mais para seu sorriso</p>
               </div>
             </div>
             <div class="vs-card-link">
@@ -240,6 +240,15 @@
     </div>
   </section>
 
+  <section>
+    <div class="container">
+      <picture>
+        <source media="(min-width:1200px)" srcset="assets/images/img-banner-intraoral-desktop.webp">
+        <img src="assets/images/img-banner-intraoral.webp" alt="ESCANEAMENTO INTRAORAL Tecnologia de ponta para atender 100% da sua necessidade" class="img-fluid">
+      </picture>
+    </div>
+  </section>
+
   <section class="wrapper">
     <div class="container">
       <div class="row align-items-center justify-content-between">
@@ -247,7 +256,7 @@
           <h3>quem <em>somos</em></h3>
           <div>
             <p>
-              Experiência, conhecimento e foco em você. A equipe VS Odontologia está sempre a postos para garantir a saúde do seu sorriso.
+              Experiência, conhecimento e foco em você. A VS Odontologia está sempre a postos para garantir a saúde do seu sorriso.
             </p>
 
             <p>
@@ -308,6 +317,28 @@
           <div class="vs-card-avatar">
             <div class="vs-card-avatar-circle">
               <div class="vs-card-avatar-mask">
+                <img src="assets/images/img-equipe-vanessa.webp" alt="">
+              </div>
+            </div>
+
+            <div class="vs-card-avatar-content">
+              <div class="vs-card-avatar-info">
+                CRO SP 106.891
+              </div>
+              <div class="vs-card-avatar-name">
+                <strong>Dra. Vanessa Treuherz Salomão</strong>
+              </div>
+              <div class="vs-card-avatar-role">
+                Responsável pela clínica
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="vs-card-avatar">
+            <div class="vs-card-avatar-circle">
+              <div class="vs-card-avatar-mask">
                 <img src="assets/images/img-equipe-nadia.webp" alt="">
               </div>
             </div>
@@ -320,7 +351,7 @@
                 <strong>Dra. Nádia Olsen</strong>
               </div>
               <div class="vs-card-avatar-role">
-                Endodontia
+                Ortodontia e Invisalign
               </div>
             </div>
           </div>
@@ -352,7 +383,7 @@
           <div class="vs-card-avatar">
             <div class="vs-card-avatar-circle">
               <div class="vs-card-avatar-mask">
-                <!-- <img src="assets/images/img-equipe-filipe.webp" alt=""> -->
+                <img src="assets/images/img-equipe-alloma.webp" alt="">
               </div>
             </div>
 
@@ -364,6 +395,7 @@
                 <strong>Dra. Alloma de Souza Oliveira Campos</strong>
               </div>
               <div class="vs-card-avatar-role">
+                Endodontia
               </div>
             </div>
           </div>
@@ -385,6 +417,51 @@
                 <strong>Dra. Bruna Valério Carrijo</strong>
               </div>
               <div class="vs-card-avatar-role">
+                Cirurgia
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="vs-card-avatar">
+            <div class="vs-card-avatar-circle">
+              <div class="vs-card-avatar-mask">
+                <img src="assets/images/img-equipe-geni.webp" alt="">
+              </div>
+            </div>
+
+            <div class="vs-card-avatar-content">
+              <div class="vs-card-avatar-info">
+                -
+              </div>
+              <div class="vs-card-avatar-name">
+                <strong>Geni Larussa</strong>
+              </div>
+              <div class="vs-card-avatar-role">
+                Auxiliar de Saúde Bucal
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="vs-card-avatar">
+            <div class="vs-card-avatar-circle">
+              <div class="vs-card-avatar-mask">
+                <img src="assets/images/img-equipe-carmem.webp" alt="">
+              </div>
+            </div>
+
+            <div class="vs-card-avatar-content">
+              <div class="vs-card-avatar-info">
+                -
+              </div>
+              <div class="vs-card-avatar-name">
+                <strong>Carmem Silvia Correa Treuherz</strong>
+              </div>
+              <div class="vs-card-avatar-role">
+                Administrativo e financeiro
               </div>
             </div>
           </div>
@@ -435,7 +512,7 @@
           <div class="pe-xl-5">
             <h3 class="vs-values-heading">estrutura</h3>
             <p>
-              Tecnologia de ponta, equipamentos modernos, ambiente permanentemente higienizado e 100% pensado para o seu conforto. Na VS Odontologia, sua consulta é sempre uma experiência positiva.
+              Tecnologia de ponta, equipamentos modernos, protocolos de higienização e ambiente acolhedor, 100% pensado para o seu conforto. Na VS Odontologia seu tratamento é sempre uma experiência positiva.
             </p>
           </div>
         </div>
@@ -508,14 +585,23 @@
       <div class="mt-4 mb-5 my-xl-5 carousel-testimonial">
         <div>
           <div class="vs-card-testmonial">
-            <div class="vs-card-testimonial-asset">
+            <!-- <div class="vs-card-testimonial-asset">
               <img src="assets/images/icons/quote.svg" alt="">
+            </div> -->
+
+            <div class="vs-card-avatar">
+              <div class="vs-card-avatar-circle">
+                <div class="vs-card-avatar-mask">
+                  <img src="" alt="">
+                </div>
+              </div>
             </div>
 
             <div class="vs-card-testimonial-content">
               <p>“Uma experiência muito boa, a Dra. Vanessa além de uma excelente profissional é muito cuidadosa
                 e detalhista."</p>
             </div>
+
             <div class="vs-card-testimonial-author">
               Wanda Sá
             </div>
@@ -524,8 +610,16 @@
 
         <div>
           <div class="vs-card-testmonial">
-            <div class="vs-card-testimonial-asset">
+            <!-- <div class="vs-card-testimonial-asset">
               <img src="assets/images/icons/quote.svg" alt="">
+            </div> -->
+
+            <div class="vs-card-avatar">
+              <div class="vs-card-avatar-circle">
+                <div class="vs-card-avatar-mask">
+                  <img src="assets/images/img-depoimento-daniel.webp" alt="">
+                </div>
+              </div>
             </div>
 
             <div class="vs-card-testimonial-content">
@@ -541,8 +635,16 @@
 
         <div>
           <div class="vs-card-testmonial">
-            <div class="vs-card-testimonial-asset">
+            <!-- <div class="vs-card-testimonial-asset">
               <img src="assets/images/icons/quote.svg" alt="">
+            </div> -->
+
+            <div class="vs-card-avatar">
+              <div class="vs-card-avatar-circle">
+                <div class="vs-card-avatar-mask">
+                  <img src="assets/images/img-depoimento-rafael.webp" alt="">
+                </div>
+              </div>
             </div>
 
             <div class="vs-card-testimonial-content">
@@ -552,6 +654,31 @@
             </div>
             <div class="vs-card-testimonial-author">
               Rafael Mizuno
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="vs-card-testmonial">
+            <!-- <div class="vs-card-testimonial-asset">
+              <img src="assets/images/icons/quote.svg" alt="">
+            </div> -->
+
+            <div class="vs-card-avatar">
+              <div class="vs-card-avatar-circle">
+                <div class="vs-card-avatar-mask">
+                  <img src="assets/images/img-depoimento-ricardo.webp" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="vs-card-testimonial-content">
+              <p>
+                “Excelentes profissionais. A Dra. Vanessa é sensacional e resolveu todos os meus problemas. Recomendo de olhos fechados e boca aberta”
+              </p>
+            </div>
+            <div class="vs-card-testimonial-author">
+              Ricardo Neves
             </div>
           </div>
         </div>

@@ -8,15 +8,59 @@ $heading = "Estética"
 
   <section class="wrapper">
     <div class="container">
+      <h2>
+        LENTES & CLAREAMENTO
+      </h2>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        A estética tem como objetivo promover a harmonia dos dentes e do sorriso. No âmbito desta especialidade os principais procedimentos são o clareamento e as lentes (facetas).
       </p>
       <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        CLAREAMENTO
       </p>
       <p>
-        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        Há dois tipos de clareamento:
       </p>
+      <ol>
+        <li>
+          De consultório – esta modalidade proporciona um resultado mais imediato, porém exige vindas do paciente ao consultório, em torno de 2 a 3 sessões, quando é feito apenas dessa forma
+        </li>
+        <li>
+          Caseiro – para realizar este tipo de clareamento é preciso realizar a moldagem do paciente que receberá placas transparentes para fazer o procedimento em casa, de preferência, durante a noite e, em média, pelo período de 3 semanas a 1 mês. Esta modalidade traz resultados excelentes, alcançado progressivamente ao longo das semanas.
+        </li>
+      </ol>
+      <p>
+        FACETAS DE PORCELANA (LENTES)
+      </p>
+      <p>
+        As lentes, também conhecidas como facetas dentárias, servem para corrigir dentes trincados, manchados, desalinhados, desgastados ou com espaçamento anormal (diastemas), proporcionando uma aparência mais natural e harmônica.
+      </p>
+      <p>
+        Com o auxílio das lentes de contato é possível transformar o sorriso ao corrigir falhas e imperfeições de maneira simples e rápida. As lentes de contato são usadas nos seguintes casos:
+      </p>
+      <ul>
+        <li>
+          Fechar espaços entre os dentes (diastema)
+        </li>
+        <li>
+          Aumentar o comprimento dos dentes
+        </li>
+        <li>
+          Aumentar a largura dos dentes
+        </li>
+        <li>
+          Alterar a cor
+        </li>
+      </ul>
+      <p>
+        As lentes de contato são películas (capas) de cerâmica produzidas com uma espessura de 0,3 a 0,5 mm, conforme o planejamento e queixas de cada paciente, proporcionando um sorriso harmônico e natural.
+      </p>
+      <p>
+        Inicialmente é feito um estudo do sorriso do paciente para planejar o caso. Em seguida esse planejamento é apresentado e testado através de uma resina provisória. Assim, o paciente consegue visualizar o resultado. Esse teste é feito na própria boca para aprovação ou alteração do projeto inicial, o que permite a previsibilidade do tratamento.
+      </p>
+      <p>
+        Uma vez aprovado são realizados os preparos e moldagens (ou escaneamento intraoral). A partir da moldagem as lentes são produzidas de forma personalizada e conforme a aprovação inicial do projeto.
+      </p>
+
     </div>
   </section>
 

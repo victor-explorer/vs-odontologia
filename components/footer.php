@@ -29,9 +29,9 @@
               </a>
             </div>
             <div class="col-7">
-              <a href="mailto:vsodontologia@gmail.com" class="vs-flex-topic" aria-label="Mensagem via e-mail">
+              <a href="mailto:vsodontologia.neo@gmail.com" class="vs-flex-topic" aria-label="Mensagem via e-mail">
                 <img src="../vs-odontologia/assets/images/icons/mail.svg" alt="" class="img-fluid" width="14" height="12">
-                vsodontologia@
+                vsodontologia.neo@gmail.com
               </a>
             </div>
             <div class="col-5">
@@ -56,7 +56,7 @@
           <div>
             <span class="vs-flex-topic">
               <img src="../vs-odontologia/assets/images/icons/clock.svg" alt="" class="img-fluid" width="16" height="16">
-              <strong>seg a sex</strong> 08h a 19h | <strong>sab</strong> 09h a 14h
+              <strong>seg a sex</strong> 09h a 19h | <strong>sab</strong> 09h a 14h
             </span>
           </div>
         </div>
@@ -66,7 +66,7 @@
           <div>
             <span class="vs-flex-topic">
               <img src="../vs-odontologia/assets/images/icons/person.svg" alt="" class="img-fluid" width="14" height="14">
-              Vanessa Treuherz Salomão - CRO SP 106.891
+              Vanessa Treuherz Salomão - CRO SP 106.891 | VS Odontologia - CRO CL026925
             </span>
           </div>
         </div>

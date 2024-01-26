@@ -10,6 +10,9 @@ $heading = "tudo o que seu <em>sorriso precisa</em>";
   <section class="wrapper text-center">
     <div class="container">
       <h2>TRATAMENTOS</h2>
+      <p>
+        Na VS Odontologia você conta com uma equipe especializada para diagnosticar exatamente o que seu sorriso necessita.
+      </p>
       <!-- Carrossel -->
       <div class="mt-4 mb-5 my-xl-5">
         <div class="row row-cols-1 row-cols-xl-4 gx-xl-4 gy-5">
@@ -25,9 +28,7 @@ $heading = "tudo o que seu <em>sorriso precisa</em>";
                     Clínica Geral
                   </strong>
                 </div>
-                <div class="vs-card-content">
-                  <p>Prevenção, restaurações e limpeza</p>
-                </div>
+
               </div>
               <div class="vs-card-link">
                 <a href="clinica.php">
@@ -48,9 +49,7 @@ $heading = "tudo o que seu <em>sorriso precisa</em>";
                     Implantodontia
                   </strong>
                 </div>
-                <div class="vs-card-content">
-                  <p>Volte a sorrir como sempre desejou</p>
-                </div>
+
               </div>
               <div class="vs-card-link">
                 <a href="implantodontia.php">
@@ -71,9 +70,7 @@ $heading = "tudo o que seu <em>sorriso precisa</em>";
                     Prótese
                   </strong>
                 </div>
-                <div class="vs-card-content">
-                  <p>Corrija o que falta para um sorriso perfeito</p>
-                </div>
+
               </div>
               <div class="vs-card-link">
                 <a href="protese.php">
@@ -94,9 +91,7 @@ $heading = "tudo o que seu <em>sorriso precisa</em>";
                     Ortodontia
                   </strong>
                 </div>
-                <div class="vs-card-content">
-                  <p>Cuide dos detalhes de sua dentição </p>
-                </div>
+
               </div>
               <div class="vs-card-link">
                 <a href="ortodontia.php">
@@ -117,9 +112,7 @@ $heading = "tudo o que seu <em>sorriso precisa</em>";
                     Endodontia
                   </strong>
                 </div>
-                <div class="vs-card-content">
-                  <p>Saúde bucal levada a sério</p>
-                </div>
+
               </div>
               <div class="vs-card-link">
                 <a href="endodontia.php">
@@ -140,9 +133,7 @@ $heading = "tudo o que seu <em>sorriso precisa</em>";
                     Periodontia
                   </strong>
                 </div>
-                <div class="vs-card-content">
-                  <p>Cuidados com <br> sua gengiva</p>
-                </div>
+
               </div>
               <div class="vs-card-link">
                 <a href="periodontia.php">
@@ -163,9 +154,7 @@ $heading = "tudo o que seu <em>sorriso precisa</em>";
                     Estética
                   </strong>
                 </div>
-                <div class="vs-card-content">
-                  <p>Lentes, clareamento e muito mais</p>
-                </div>
+
               </div>
               <div class="vs-card-link">
                 <a href="estetica.php">
@@ -186,9 +175,7 @@ $heading = "tudo o que seu <em>sorriso precisa</em>";
                     Cirurgia
                   </strong>
                 </div>
-                <div class="vs-card-content">
-                  <p>Solucione problemas bucais pela raíz</p>
-                </div>
+
               </div>
               <div class="vs-card-link">
                 <a href="cirurgia.php">

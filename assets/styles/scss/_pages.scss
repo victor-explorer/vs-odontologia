@@ -246,13 +246,8 @@ a {
 }
 
 .vs-values {
-  background-image: url(../../images/bg-home-values.webp);
-  background-position: 50% 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
 
   .vs-values-content {
-    padding-bottom: 77vh;
 
     .vs-values-subheading {
       color: $terciary;
@@ -263,18 +258,23 @@ a {
     }
   }
 
+  .vs-values-image {
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 40px 10px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
   @media (max-width: 400px) {
     background-position: 50% 108%;
   }
 
   @media (min-width: 1200px) {
-    background: url(../../images/bg-home-values-desktop.webp) no-repeat 100%;
-    background-size: cover;
-    background-position: 50% 20%;
-
-
-    .vs-values-content {
-      padding-bottom: 7vh;
+    .vs-values-image {
+      margin: 0 10px;
     }
   }
 

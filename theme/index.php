@@ -1,4 +1,4 @@
-<?php require('include/helmet.php'); ?>
+<?php get_header(); ?>
 
 <main>
   <section class="wrapper home-banner">
@@ -24,7 +24,7 @@
             </div>
 
             <div class="col-xl-5 pt-5 pt-xl-0">
-              <img src="assets/images/img-home-1.webp" alt="" class="img-fluid">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/img-home-1.webp'; ?>" alt="" class="img-fluid">
             </div>
           </div>
         </div>
@@ -43,7 +43,7 @@
         <div>
           <div class="vs-card-w-link">
             <div class="vs-card-asset">
-              <img src="assets/images/icons/clinica.svg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/clinica.svg'; ?>" alt="">
             </div>
             <div class="vs-card-info">
               <div class="vs-card-title">
@@ -56,7 +56,7 @@
               </div>
             </div>
             <div class="vs-card-link">
-              <a href="clinica.php">
+              <a href="clinica">
                 Saiba mais
               </a>
             </div>
@@ -66,7 +66,7 @@
         <div>
           <div class="vs-card-w-link">
             <div class="vs-card-asset">
-              <img src="assets/images/icons/implantodontia.svg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/implantodontia.svg'; ?>" alt="">
             </div>
             <div class="vs-card-info">
               <div class="vs-card-title">
@@ -79,7 +79,7 @@
               </div>
             </div>
             <div class="vs-card-link">
-              <a href="implantodontia.php">
+              <a href="implantodontia">
                 Saiba mais
               </a>
             </div>
@@ -89,7 +89,7 @@
         <div>
           <div class="vs-card-w-link">
             <div class="vs-card-asset">
-              <img src="assets/images/icons/protese.svg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/protese.svg'; ?>" alt="">
             </div>
             <div class="vs-card-info">
               <div class="vs-card-title">
@@ -102,7 +102,7 @@
               </div>
             </div>
             <div class="vs-card-link">
-              <a href="protese.php">
+              <a href="protese">
                 Saiba mais
               </a>
             </div>
@@ -112,7 +112,7 @@
         <div>
           <div class="vs-card-w-link">
             <div class="vs-card-asset">
-              <img src="assets/images/icons/ortodontia.svg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/ortodontia.svg'; ?>" alt="">
             </div>
             <div class="vs-card-info">
               <div class="vs-card-title">
@@ -125,7 +125,7 @@
               </div>
             </div>
             <div class="vs-card-link">
-              <a href="ortodontia.php">
+              <a href="ortodontia">
                 Saiba mais
               </a>
             </div>
@@ -135,7 +135,7 @@
         <div>
           <div class="vs-card-w-link">
             <div class="vs-card-asset">
-              <img src="assets/images/icons/endodontia.svg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/endodontia.svg'; ?>" alt="">
             </div>
             <div class="vs-card-info">
               <div class="vs-card-title">
@@ -148,7 +148,7 @@
               </div>
             </div>
             <div class="vs-card-link">
-              <a href="endodontia.php">
+              <a href="endodontia">
                 Saiba mais
               </a>
             </div>
@@ -158,7 +158,7 @@
         <div>
           <div class="vs-card-w-link">
             <div class="vs-card-asset">
-              <img src="assets/images/icons/periodontia.svg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/periodontia.svg'; ?>" alt="">
             </div>
             <div class="vs-card-info">
               <div class="vs-card-title">
@@ -171,7 +171,7 @@
               </div>
             </div>
             <div class="vs-card-link">
-              <a href="periodontia.php">
+              <a href="periodontia">
                 Saiba mais
               </a>
             </div>
@@ -181,7 +181,7 @@
         <div>
           <div class="vs-card-w-link">
             <div class="vs-card-asset">
-              <img src="assets/images/icons/estetica.svg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/estetica.svg'; ?>" alt="">
             </div>
             <div class="vs-card-info">
               <div class="vs-card-title">
@@ -194,7 +194,7 @@
               </div>
             </div>
             <div class="vs-card-link">
-              <a href="estetica.php">
+              <a href="estetica">
                 Saiba mais
               </a>
             </div>
@@ -204,7 +204,7 @@
         <div>
           <div class="vs-card-w-link">
             <div class="vs-card-asset">
-              <img src="assets/images/icons/cirurgia.svg" alt="">
+              <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/cirurgia.svg'; ?>" alt="">
             </div>
             <div class="vs-card-info">
               <div class="vs-card-title">
@@ -217,7 +217,7 @@
               </div>
             </div>
             <div class="vs-card-link">
-              <a href="cirurgia.php">
+              <a href="cirurgia">
                 Saiba mais
               </a>
             </div>
@@ -228,7 +228,7 @@
       <!-- Fim Carrossel -->
 
       <div class="pt-xl-4">
-        <a href="tratamentos.php" role="button" class="vs-button">
+        <a href="tratamentos" role="button" class="vs-button">
           CONHEÇA NOSSOS TRATAMENTOS
         </a>
       </div>
@@ -243,8 +243,8 @@
   <section>
     <div class="container">
       <picture class="d-flex justify-content-center">
-        <source media="(min-width:1200px)" srcset="assets/images/img-banner-intraoral-desktop.png">
-        <img src="assets/images/img-banner-intraoral.png" alt="ESCANEAMENTO INTRAORAL Tecnologia de ponta para atender 100% da sua necessidade" class="img-fluid">
+        <source media="(min-width:1200px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/img-banner-intraoral-desktop.png'; ?>">
+        <img src="<?php echo get_template_directory_uri() . '/assets/images/img-banner-intraoral.png'; ?>" alt="ESCANEAMENTO INTRAORAL Tecnologia de ponta para atender 100% da sua necessidade" class="img-fluid">
       </picture>
     </div>
   </section>
@@ -266,7 +266,7 @@
         </div>
         <div class="col-xl-6 mt-5 mt-xl-0">
           <div class="video-container">
-            <iframe class="video" src="https://www.youtube.com/embed/NpEaa2P7qZI?si=ADBA9XugldjW2ZXj" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+            <iframe class="video" src="https://www.youtube.com/embed/sHOoA3vYL7c?si=naDHZrMeMydY3DEN" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -317,7 +317,7 @@
           <div class="vs-card-avatar">
             <div class="vs-card-avatar-circle">
               <div class="vs-card-avatar-mask">
-                <img src="assets/images/img-equipe-vanessa.webp" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/img-equipe-vanessa.webp'; ?>" alt="">
               </div>
             </div>
 
@@ -339,7 +339,7 @@
           <div class="vs-card-avatar">
             <div class="vs-card-avatar-circle">
               <div class="vs-card-avatar-mask">
-                <img src="assets/images/img-equipe-nadia.webp" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/img-equipe-nadia.webp'; ?>" alt="">
               </div>
             </div>
 
@@ -361,7 +361,7 @@
           <div class="vs-card-avatar">
             <div class="vs-card-avatar-circle">
               <div class="vs-card-avatar-mask">
-                <img src="assets/images/img-equipe-filipe.webp" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/img-equipe-filipe.webp'; ?>" alt="">
               </div>
             </div>
 
@@ -383,7 +383,7 @@
           <div class="vs-card-avatar">
             <div class="vs-card-avatar-circle">
               <div class="vs-card-avatar-mask">
-                <img src="assets/images/img-equipe-alloma.webp" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/img-equipe-alloma.webp'; ?>" alt="">
               </div>
             </div>
 
@@ -405,7 +405,7 @@
           <div class="vs-card-avatar">
             <div class="vs-card-avatar-circle">
               <div class="vs-card-avatar-mask">
-                <img src="assets/images/img-equipe-bruna.webp" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/img-equipe-bruna.webp'; ?>" alt="">
               </div>
             </div>
 
@@ -427,7 +427,7 @@
           <div class="vs-card-avatar">
             <div class="vs-card-avatar-circle">
               <div class="vs-card-avatar-mask">
-                <img src="assets/images/img-equipe-geni.webp" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/img-equipe-geni.webp'; ?>" alt="">
               </div>
             </div>
 
@@ -449,7 +449,7 @@
           <div class="vs-card-avatar">
             <div class="vs-card-avatar-circle">
               <div class="vs-card-avatar-mask">
-                <img src="assets/images/img-equipe-carmem.webp" alt="">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/img-equipe-carmem.webp'; ?>" alt="">
               </div>
             </div>
 
@@ -470,7 +470,7 @@
       <!-- Fim Carrossel Card Avatar -->
 
       <div>
-        <a href="equipe.php" role="button" class="vs-button">
+        <a href="equipe" role="button" class="vs-button">
           CONHEÇA O TIME VS ODONTOLOGIA
         </a>
       </div>
@@ -510,16 +510,15 @@
           </div>
 
           <div class="vs-values-image d-block d-xl-none">
-            <img src="assets/images/img-values.webp" alt="Mulher sorrindo">
+            <img src="<?php echo get_template_directory_uri() . 'assets/images/img-values.webp'; ?> " alt="Mulher sorrindo">
           </div>
         </div>
 
         <div class="col-xl-6 d-none d-xl-block">
           <div class="vs-values-image">
-            <img src="assets/images/img-values.webp" alt="Mulher sorrindo">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/img-values.webp'; ?> " alt="Mulher sorrindo">
           </div>
         </div>
-
 
         <div class="col-12">
           <h3 class="vs-values-heading">estrutura</h3>
@@ -531,7 +530,7 @@
             <div>
               <div class="vs-gallery">
                 <div class="vs-gallery-item">
-                  <img src="assets/images/img-estrutura-1.webp" alt="">
+                  <img src="<?php echo get_template_directory_uri() . '/assets/images/img-estrutura-1.webp'; ?>" alt="">
                 </div>
               </div>
             </div>
@@ -539,7 +538,7 @@
             <div>
               <div class="vs-gallery">
                 <div class="vs-gallery-item">
-                  <img src="assets/images/img-estrutura-2.webp" alt="">
+                  <img src="<?php echo get_template_directory_uri() . '/assets/images/img-estrutura-2.webp'; ?>" alt="">
                 </div>
               </div>
             </div>
@@ -547,7 +546,7 @@
             <div>
               <div class="vs-gallery">
                 <div class="vs-gallery-item">
-                  <img src="assets/images/img-estrutura-3.webp" alt="">
+                  <img src="<?php echo get_template_directory_uri() . '/assets/images/img-estrutura-3.webp'; ?>" alt="">
                 </div>
               </div>
             </div>
@@ -555,7 +554,7 @@
             <div>
               <div class="vs-gallery">
                 <div class="vs-gallery-item">
-                  <img src="assets/images/img-estrutura-4.webp" alt="">
+                  <img src="<?php echo get_template_directory_uri() . '/assets/images/img-estrutura-4.webp'; ?>" alt="">
                 </div>
               </div>
             </div>
@@ -563,20 +562,16 @@
             <div>
               <div class="vs-gallery">
                 <div class="vs-gallery-item">
-                  <img src="assets/images/img-estrutura-1.webp" alt="">
+                  <img src="<?php echo get_template_directory_uri() . '/assets/images/img-estrutura-1.webp'; ?>" alt="">
                 </div>
               </div>
             </div>
-
-
-
-
           </div>
           <!-- Fim Carrossel Galeria -->
         </div>
 
         <div class="text-center">
-          <a href="equipe.php" role="button" class="vs-button">
+          <a href="equipe" role="button" class="vs-button">
             CONHEÇA O TIME VS ODONTOLOGIA
           </a>
         </div>
@@ -591,12 +586,9 @@
 
       <!-- Carrossel Depoimentos -->
       <div class="mt-4 mb-5 my-xl-5 carousel-testimonial">
-        <div>
+        <!--Oculto 
+          <div>
           <div class="vs-card-testmonial">
-            <!-- <div class="vs-card-testimonial-asset">
-              <img src="assets/images/icons/quote.svg" alt="">
-            </div> -->
-
             <div class="vs-card-avatar">
               <div class="vs-card-avatar-circle">
                 <div class="vs-card-avatar-mask">
@@ -614,18 +606,14 @@
               Wanda Sá
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div>
           <div class="vs-card-testmonial">
-            <!-- <div class="vs-card-testimonial-asset">
-              <img src="assets/images/icons/quote.svg" alt="">
-            </div> -->
-
             <div class="vs-card-avatar">
               <div class="vs-card-avatar-circle">
                 <div class="vs-card-avatar-mask">
-                  <img src="assets/images/img-depoimento-daniel.webp" alt="">
+                  <img src="<?php echo get_template_directory_uri() . '/assets/images/img-depoimento-daniel.webp'; ?>" alt="">
                 </div>
               </div>
             </div>
@@ -643,14 +631,10 @@
 
         <div>
           <div class="vs-card-testmonial">
-            <!-- <div class="vs-card-testimonial-asset">
-              <img src="assets/images/icons/quote.svg" alt="">
-            </div> -->
-
             <div class="vs-card-avatar">
               <div class="vs-card-avatar-circle">
                 <div class="vs-card-avatar-mask">
-                  <img src="assets/images/img-depoimento-rafael.webp" alt="">
+                  <img src="<?php echo get_template_directory_uri() . '/assets/images/img-depoimento-rafael.webp'; ?>" alt="">
                 </div>
               </div>
             </div>
@@ -668,14 +652,10 @@
 
         <div>
           <div class="vs-card-testmonial">
-            <!-- <div class="vs-card-testimonial-asset">
-              <img src="assets/images/icons/quote.svg" alt="">
-            </div> -->
-
             <div class="vs-card-avatar">
               <div class="vs-card-avatar-circle">
                 <div class="vs-card-avatar-mask">
-                  <img src="assets/images/img-depoimento-ricardo.webp" alt="">
+                  <img src="<?php echo get_template_directory_uri() . '/assets/images/img-depoimento-ricardo.webp'; ?>" alt="">
                 </div>
               </div>
             </div>
@@ -699,13 +679,10 @@
         </a>
       </div>
     </div>
-    <h4>
-
-    </h4>
   </section>
 
-  <?php require('include/form-section.php'); ?>
+  <?php get_template_part('partials/content', 'form'); ?>
+
 </main>
 
-<!-- Footer -->
-<?php require('include/footer.php'); ?>
+<?php get_footer(); ?>

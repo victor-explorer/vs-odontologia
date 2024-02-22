@@ -9,16 +9,9 @@
           Dê o primeiro passo rumo ao sorriso que sempre sonhou.
         </p>
 
-        <!-- Oculto 
-          <div class="vs-form mt-xl-5">
-          <form>
-            <input type="text" name="" id="" placeholder="Nome">
-            <input type="email" name="" id="" placeholder="E-mail">
-            <input type="tel" name="" id="" placeholder="Telefone">
-            <textarea name="" id="" cols="30" rows="5" placeholder="Mensagem"></textarea>
-            <input type="submit" value="Enviar" class="vs-button">
-          </form>
-        </div> -->
+        <div class="vs-form mt-xl-5">
+          <?php echo do_shortcode('[contact-form-7 id="8c21a00" title="Formulário de contato"]'); ?>
+        </div>
 
         <div class="mt-5">
           <a href="https://wa.me/5511914155003" class="vs-flex-topic" aria-label="Chat no WhatsApp" target="_blank">

@@ -29,9 +29,9 @@
               </a>
             </div>
             <div class="col-7">
-              <a href="mailto:vsodontologia.neo@gmail.com" class="vs-flex-topic" aria-label="Mensagem via e-mail">
+              <a href="mailto:atendimento@vsodontologia.com" class="vs-flex-topic" aria-label="Mensagem via e-mail">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/mail.svg'; ?>" alt="" class="img-fluid" width="14" height="12">
-                vsodontologia.neo@gmail.com
+                atendimento@vsodontologia.com
               </a>
             </div>
             <div class="col-5">

@@ -5,14 +5,22 @@
  */
 ?>
 <?php get_header(); ?>
-<?php
-$args = array(
-  'page_title' => get_field('acf_equipe_pageTitle')
-)
-?>
 
 <main id="equipe">
-  <?php get_template_part('partials/content', 'banner', $args); ?>
+
+  <section class="wrapper internal-page-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-7">
+          <div class="banner-heading">
+            <h1>
+              <?php the_field('acf_equipe_pageTitle'); ?>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="wrapper">
     <div class="container">
@@ -79,7 +87,7 @@ $args = array(
         </div>
 
       <?php endif; ?>
-      
+
     </div>
   </section>
 

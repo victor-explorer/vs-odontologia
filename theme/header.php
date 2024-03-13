@@ -6,12 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="robots" content="noindex">
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        ‘
+        gtm.start’: new Date().getTime(),
+        event: ‘gtm.js’
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != ‘dataLayer’ ? ‘ & l = ‘+l : ‘’;
+      j.async = true;
+      j.src = ’https: //www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window, document, ‘script’, ‘dataLayer’, ‘GTM - PTWRHQ7’);
+  </script>
+  <!-- End Google Tag Manager -->
 
   <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src=“ns ” height="0 " width="0" style=“display:none;visibility:hidden”></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
   <header>
     <div class="container header">
       <!-- Logo -->
@@ -24,6 +44,7 @@
       <nav>
         <a href="https://vsodontologia.com/equipe/" tabindex="0">Equipe</a>
         <a href="https://vsodontologia.com/tratamentos/" tabindex="0">Tratamentos</a>
+        <a href="https://vsodontologia.com#estrutura" tabindex="0">O Consultório</a>
         <a href="https://vsodontologia.com/privacidade/" tabindex="0">Política de Privacidade</a>
         <a href="#contato" tabindex="0">Contato</a>
         <a href="https://www.instagram.com/dra.vanessasalomao/" tabindex="0" aria-label="Perfil no Instagram" target="_blank" class="ms-3">
@@ -44,6 +65,7 @@
           <a href="javascript:void(0)" class="close-menu-button" onclick="closeMobileMenu()">&times;</a>
           <a href="https://vsodontologia.com/equipe" onclick="closeMobileMenu()">Equipe</a>
           <a href="https://vsodontologia.com/tratamentos/" onclick="closeMobileMenu()">Tratamentos</a>
+          <a href="https://vsodontologia.com#estrutura" onclick="closeMobileMenu()">O Consultório</a>
           <a href="https://vsodontologia.com/privacidade/" onclick="closeMobileMenu()">Política de privacidade</a>
           <a href="#contato" onclick="closeMobileMenu()">Contato</a>
           <a href="https://www.instagram.com/dra.vanessasalomao/" tabindex="0" aria-label="Perfil no Instagram" target="_blank" onclick="closeMobileMenu()">

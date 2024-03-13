@@ -1,12 +1,13 @@
 <?php
 $args = array(
-  'page_title' => get_field('acf_tratamento_pageTitle')
+  'page_title' => get_field('acf_tratamento_pageTitle'),
+  'page_background' => get_field('acf_tratamento_background')
 )
 ?>
 
 <?php get_header(); ?>
 
-<main id="<?php the_title(); ?>">
+<main id="<?php the_title(); ?>" class="vs-services">
   <?php get_template_part('partials/content', 'banner', $args); ?>
   <section class="wrapper">
     <div class="container">
@@ -51,10 +52,10 @@ $args = array(
           AGENDE SUA CONSULTA
         </a>
       </div>
-
-      <?php get_template_part('partials/content', 'form'); ?>
     </div>
   </section>
+
+  <?php get_template_part('partials/content', 'form'); ?>
 
 </main>
 

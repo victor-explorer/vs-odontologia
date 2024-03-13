@@ -31,6 +31,12 @@ body {
   @media (min-width: 1200px) and (max-width: 1400px) {
     font-size: $md;
   }
+
+  text-align: justify;
+
+  p {
+    text-align: inherit;
+  }
 }
 
 h1,
@@ -309,7 +315,7 @@ a {
       line-height: 114%;
       text-align: center;
 
-      @media (max-width: 400px) {
+      @media (max-width: 500px) {
         font-size: 2rem;
       }
 
@@ -345,7 +351,8 @@ a {
 
     .vs-card-avatar-content {
       .vs-card-avatar-name {
-        min-height: auto
+        min-height: auto;
+        text-align: start;
       }
 
     }

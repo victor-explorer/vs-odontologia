@@ -212,6 +212,8 @@
   .vs-card-avatar-content {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    width: 100%;
     gap: 2px;
 
     .vs-card-avatar-info {
@@ -383,6 +385,18 @@
     textarea {
       height: 150px;
     }
+  }
+}
+
+.vs-services {
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: start;
   }
 }
 

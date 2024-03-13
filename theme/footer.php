@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row justify-content-xl-between">
       <div class="col-12 col-xl-3 mb-5 mb-xl-0 d-xl-flex align-items-center">
-        <div class="logo">
+        <div class="logo text-center">
           <img src="<?php echo get_template_directory_uri() . '/assets/images/logo.png'; ?>" alt="VS Odontologia">
         </div>
       </div>
@@ -22,28 +22,28 @@
         <div class="mb-3 mb-xl-4">
           <span><strong>Contato</strong></span>
           <div class="row gy-2">
-            <div class="col-5">
+            <div class="col-12">
               <a href="tel:+1138155003" class="vs-flex-topic" aria-label="Chamada telefônica">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/tel.svg'; ?>" alt="" class="img-fluid" width="14" height="14">
                 11 3815-5003
               </a>
             </div>
-            <div class="col-7">
-              <a href="mailto:atendimento@vsodontologia.com" class="vs-flex-topic" aria-label="Mensagem via e-mail">
-                <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/mail.svg'; ?>" alt="" class="img-fluid" width="14" height="12">
-                atendimento@vsodontologia.com
-              </a>
-            </div>
-            <div class="col-5">
+            <div class="col-12">
               <a href="https://wa.me/5511914155003" class="vs-flex-topic" aria-label="Chat no WhatsApp" target="_blank">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/whatsapp.svg'; ?>" alt="" class="img-fluid" width="14" height="14">
                 11 91415-5003
               </a>
             </div>
-            <div class="col-7">
+            <div class="col-12">
               <a href="https://www.instagram.com/dra.vanessasalomao/" class="vs-flex-topic" aria-label="Perfil no Instagram" target="_blank">
                 <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/instagram.svg'; ?>" alt="" class="img-fluid" width="14" height="14">
                 dra.vanessasalomao
+              </a>
+            </div>
+            <div class="col-12">
+              <a href="mailto:atendimento@vsodontologia.com" class="vs-flex-topic" aria-label="Mensagem via e-mail">
+                <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/mail.svg'; ?>" alt="" class="img-fluid" width="14" height="12">
+                atendimento@vsodontologia.com
               </a>
             </div>
           </div>
@@ -66,7 +66,7 @@
           <div>
             <span class="vs-flex-topic">
               <img src="<?php echo get_template_directory_uri() . '/assets/images/icons/person.svg'; ?>" alt="" class="img-fluid" width="14" height="14">
-              Vanessa Treuherz Salomão - CRO SP 106.891 | VS Odontologia - CRO CL026925
+              Vanessa Treuherz Salomão - CRO SP 106.891
             </span>
           </div>
         </div>

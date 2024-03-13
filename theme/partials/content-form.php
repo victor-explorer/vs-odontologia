@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row justify-content-xl-center">
       <div class="col-xl-7">
-        <h4 class="mb-2 mb-xl-0">
+        <h4 class="mb-2 mb-xl-0 text-center">
           AGENDE SUA <em>CONSULTA</em>
         </h4>
         <p>

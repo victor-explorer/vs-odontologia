@@ -85,10 +85,12 @@
 
   <section>
     <div class="container">
-      <picture class="d-flex justify-content-center">
-        <source media="(min-width:1200px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/img-banner-intraoral-desktop.png'; ?>">
-        <img src="<?php echo get_template_directory_uri() . '/assets/images/img-banner-intraoral.png'; ?>" alt="ESCANEAMENTO INTRAORAL Tecnologia de ponta para atender 100% da sua necessidade" class="img-fluid">
-      </picture>
+      <a href="https://www.youtube.com/watch?v=W3q_zHmSX8s&t=8s" target="_blank">
+        <picture class="d-flex justify-content-center">
+          <source media="(min-width:1200px)" srcset="<?php echo get_template_directory_uri() . '/assets/images/img-banner-intraoral-desktop.webp'; ?>">
+          <img src="<?php echo get_template_directory_uri() . '/assets/images/img-banner-intraoral.webp'; ?>" alt="ESCANEAMENTO INTRAORAL Tecnologia de ponta para atender 100% da sua necessidade" class="img-fluid">
+        </picture>
+      </a>
     </div>
   </section>
 
@@ -117,7 +119,7 @@
       <div class="container">
         <div class="row justify-content-xl-between">
           <div class="col-xl-7 order-xl-last">
-            <h3 class="vs-about-heading">
+            <h3 class="vs-about-heading text-start">
               <?php the_field('acf_home_section05_title'); ?>
             </h3>
 
@@ -201,7 +203,7 @@
           </div>
 
           <div class="vs-values-image d-block d-xl-none">
-            <img src="<?php echo get_template_directory_uri() . 'assets/images/img-values.webp'; ?> " alt="Mulher sorrindo">
+            <img src="<?php echo get_template_directory_uri() . '/assets/images/img-values.webp'; ?> " alt="Mulher sorrindo">
           </div>
         </div>
 
@@ -211,7 +213,7 @@
           </div>
         </div>
 
-        <div class="col-12">
+        <div class="col-12" id="estrutura">
           <?php the_field('acf_home_section08_title'); ?>
 
           <?php the_field('acf_home_section08_content'); ?>
@@ -224,7 +226,7 @@
                 <div>
                   <div class="vs-gallery">
                     <div class="vs-gallery-item">
-                      <img src="<?php the_sub_field('acf_home_section08_loop_image'); ?>" alt="">
+                      <img src="<?php the_sub_field('acf_home_section08_loop_image'); ?>" alt="" data-fancybox="estrutura">
                     </div>
                   </div>
                 </div>

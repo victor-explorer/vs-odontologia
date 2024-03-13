@@ -531,7 +531,7 @@
             <div>
               <div class="vs-gallery">
                 <div class="vs-gallery-item">
-                  <img src="assets/images/img-estrutura-1.webp" alt="">
+                  <img src="assets/images/img-estrutura-1.webp" alt="" data-fancybox="estrutura">
                 </div>
               </div>
             </div>
@@ -539,7 +539,7 @@
             <div>
               <div class="vs-gallery">
                 <div class="vs-gallery-item">
-                  <img src="assets/images/img-estrutura-2.webp" alt="">
+                  <img src="assets/images/img-estrutura-2.webp" alt="" data-fancybox="estrutura">
                 </div>
               </div>
             </div>
@@ -547,7 +547,7 @@
             <div>
               <div class="vs-gallery">
                 <div class="vs-gallery-item">
-                  <img src="assets/images/img-estrutura-3.webp" alt="">
+                  <img src="assets/images/img-estrutura-3.webp" alt="" data-fancybox="estrutura">
                 </div>
               </div>
             </div>
@@ -555,7 +555,7 @@
             <div>
               <div class="vs-gallery">
                 <div class="vs-gallery-item">
-                  <img src="assets/images/img-estrutura-4.webp" alt="">
+                  <img src="assets/images/img-estrutura-4.webp" alt="" data-fancybox="estrutura">
                 </div>
               </div>
             </div>
@@ -563,7 +563,7 @@
             <div>
               <div class="vs-gallery">
                 <div class="vs-gallery-item">
-                  <img src="assets/images/img-estrutura-1.webp" alt="">
+                  <img src="assets/images/img-estrutura-1.webp" alt="" data-fancybox="estrutura">
                 </div>
               </div>
             </div>

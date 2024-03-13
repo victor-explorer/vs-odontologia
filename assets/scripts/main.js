@@ -10,3 +10,6 @@ function closeMobileMenu() {
   menuComponent.classList.toggle('menuIsOpen');
   bodyElement.classList.toggle('menuIsOpen');
 }
+
+Fancybox.bind('[data-fancybox="estrutura"]', {
+});

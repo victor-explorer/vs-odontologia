@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/lib/slick/css/slick.css" />
   <link rel="stylesheet" type="text/css" href="assets/lib/slick/css/slick-theme.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
 
   <link rel="stylesheet" href="assets/styles/css/style.css">
   <title>VS Odontologia</title>
@@ -20,5 +21,5 @@
 
 <body>
 
-<!-- Header -->
+  <!-- Header -->
   <?php require('components/header.php'); ?>

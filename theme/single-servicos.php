@@ -1,7 +1,6 @@
 <?php
 $args = array(
-  'page_title' => get_field('acf_tratamento_pageTitle'),
-  'page_background' => get_field('acf_tratamento_background')
+  'page_title' => get_field('acf_tratamento_pageTitle')
 )
 ?>
 

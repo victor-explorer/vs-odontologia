@@ -25,13 +25,25 @@
   <!-- End Google Tag Manager -->
 
   <?php wp_head(); ?>
+
+  <style>
+    main#<?php the_title(); ?>.vs-services .internal-page-banner {
+      background-image: url(<?php the_field('acf_tratamento_background_mobile', $post->ID); ?>);
+    }
+
+    @media (min-width: 1200px) {
+      main#<?php the_title(); ?>.vs-services .internal-page-banner {
+        background-image: url(<?php the_field('acf_tratamento_background', $post->ID); ?>);
+      }
+    }
+  </style>
 </head>
 
 <body <?php body_class(); ?>>
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src=“ns ” height="0 " width="0" style=“display:none;visibility:hidden”></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  
+
   <header>
     <div class="container header">
       <!-- Logo -->

@@ -11,5 +11,5 @@ function closeMobileMenu() {
   bodyElement.classList.toggle('menuIsOpen');
 }
 
-Fancybox.bind('[data-fancybox="estrutura"]', {
+Fancybox.bind('[data-fancybox="galeria-estrutura"]', {
 });

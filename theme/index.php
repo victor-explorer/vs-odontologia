@@ -226,7 +226,7 @@
                 <div>
                   <div class="vs-gallery">
                     <div class="vs-gallery-item">
-                      <img src="<?php the_sub_field('acf_home_section08_loop_image'); ?>" alt="" data-fancybox="estrutura">
+                      <img src="<?php the_sub_field('acf_home_section08_loop_image'); ?>" alt="" data-fancybox="galeria-estrutura">
                     </div>
                   </div>
                 </div>
